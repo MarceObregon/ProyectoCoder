@@ -1,63 +1,69 @@
 * {
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
- /*estilos para imagen de fondo*/ 
+/*estilos para imagen de fondo*/
 
 .bodyInicio {
-    background-image: url(IMAGENES/PASTA.jpg);background-image: no-repeat;
-    background-size:cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    background-image: url(IMAGENES/PASTA.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 /* estilo zona navegable */
 
-.zonaNavegable {
+.navbar {
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    padding: 10px 0;
-    width: 90%;
-    margin: auto;}
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    border-radius: 60px;
+}
 
-/*logos de menu*/
 
-.logo img { width: 85px;}
-.redes ul {list-style: none;display: flex; margin-right: 20px;}
-.facebook {width: 60px; margin: 5px;}
-.instagram { width: 70px;}
 
 /*Links de navegacion*/
-
-.divLinks ul {display: flex; list-style: none;}
-.divLinks ul li a {padding: 50px; text-decoration: none; color: black;}
-.botonContacto{background-color: #ECE663;
-     border: none;
-     font-size: 20px;
-    border-radius: 10px;}
+.links ul li a {
+    color: rgba(244, 255, 253, 0.521);
+}
 
 /* Contenido Principal*/
 
-.contenedorMain { 
+.contenedorMain {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;list-style: none;}
+    text-align: center;
+    list-style: none;
+}
 
-    .titulos { text-align: center;
-        padding-top: 25px ;
-    font-size: 25px;}
+.titulos {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+}
 
-    .titulos h2 { padding-top: 30px;}
+.titulos h2 {
+    padding-top: 30px;
+}
 
-    .listas { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        display: flex;
-        justify-content: space-between;
-        padding: 60px;
-        padding-top: 50px ;}
-        .listas { font-size: 30px;}
+.listas {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    padding-top: 50px;
+}
 
-        .listas ul {list-style: none;}
+.listas {
+    font-size: 30px;
+}
+
+.listas ul {
+    list-style: none;
+}
 
 
 
@@ -67,89 +73,117 @@
 
 /*Pie de pagina*/
 
-.footer {background-color: #94892A;font-size: 15px;
+.footer {
+    background-color: #94892A;
+    font-size: 15px;
     display: flex;
-    
+
     align-items: center;
     height: 60px;
     width: 100%;
-    position: fixed; bottom: 0px;}
+    position: fixed;
+    bottom: 0px;
+}
 
-    .pieDepagina {display: flex; justify-content: space-between;width: 100%; }
+.pieDepagina {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 
 
-.logoDos {display: flex; width: 70px;}
+.logoDos {
+    display: flex;
+    width: 70px;
+}
 
-.textoFooter { display:flex; align-items: center;}
-.textoFooterDos {display: flex;align-items: center;padding-right: 30px;}
-.textoFooterDos p {padding-top: 25px;}
+.textoFooter {
+    display: flex;
+    align-items: center;
+}
+
+.textoFooterDos {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.textoFooterDos p {
+    padding-top: 25px;
+}
 
 
 /*ESTILOS PAGINA PRODUCTOS*/
 
-body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 /*Color de fondo*/
 
-body {background-color: #E5E929;}
+body {
+    background-color: #E5E929;
+}
 
 
-/* estilo zona navegable */
-
-.zonaNavegableDos {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    padding: 10px 0;
-    width: 80%;
-    margin: auto;
-background-color: #94892A;
-border-radius: 60px;}
 
 /*estilos de titulos principales*/
 
-.productosTitulos {text-align: center;
-padding-top: 50px;padding: 50px;}
+.productosTitulos {
+    text-align: center;
+    padding-top: 50px;
+    padding: 50px;
+}
 
 
 /*estilos de imagenes y sus descripciones*/
 
-.produImagenes { display: flex; justify-content: center; padding: 50px;}
+.produImagenes {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 
 /*ESTILOS PAGINA NOSOTROS*/
 
 
-.tituloNos{ text-align: center;
-padding-top: 50px;
-padding-bottom: 50px;}
+.tituloNos {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 
 
 /*ESTILOS PAGINA CONTACTO*/
 
-.tituloContacto {text-align: center; padding: 30px; padding-bottom: 39px;}
-.tituloContactoDos {text-align: center; 
+.tituloContacto {
+    text-align: center;
     padding: 30px;
-display: flex;
-justify-content: center;}
+    padding-bottom: 39px;
+}
+
+.tituloContactoDos {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
 
 
-.whatsapp {width: 60px; margin: 5px;}
-.instagramDos {width: 60px; margin: 5px;}
-.facebookDos {width: 60px; margin: 5px;}
+.whatsapp {
+    width: 60px;
+    margin: 5px;
+}
 
+.instagramDos {
+    width: 60px;
+    margin: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.facebookDos {
+    width: 60px;
+    margin: 5px;
+}
