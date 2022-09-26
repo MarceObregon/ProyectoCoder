@@ -94,7 +94,6 @@ body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
 body {background-color: #E5E929;}
 
-/*Estios Zona navegable*/
 
 /* estilo zona navegable */
 
@@ -113,7 +112,7 @@ border-radius: 60px;}
 /*estilos de titulos principales*/
 
 .productosTitulos {text-align: center;
-padding-top: 50px;}
+padding-top: 50px;padding: 50px;}
 
 
 /*estilos de imagenes y sus descripciones*/
@@ -121,6 +120,7 @@ padding-top: 50px;}
 .produImagenes { display: flex; justify-content: center; padding: 50px;}
 
 /*ESTILOS PAGINA NOSOTROS*/
+
 
 .tituloNos{ text-align: center;
 padding-top: 50px;
@@ -141,6 +141,12 @@ justify-content: center;}
 .whatsapp {width: 60px; margin: 5px;}
 .instagramDos {width: 60px; margin: 5px;}
 .facebookDos {width: 60px; margin: 5px;}
+
+
+
+
+
+
 
 
 
