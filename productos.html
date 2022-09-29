@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,134 +8,149 @@
     <title>Productos</title>
     <link rel="shortcut icon" href="IMAGENES/Logo.png" type="Logo">
     <!-- CDN BOOSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 
 <body>
 
-<header>
-    <nav class="zonaNavegableDos">
-        <!--Logo de la pagina-->
-       <div class="logo">
-            <img src="IMAGENES/Logo.png" alt="logo De la marca">
-       </div>
-            <!--links de menu principal-->
-        <div class="divLinks">
-            <ul>
-                <li>
-                     <a href="index.html">Inico</a>
-                </li>
-                <li>
-                     <a href="productos.html">Productos</a>
-                </li>
-                 <li>
-                    <a href="distribuidores.html">Distribuidores</a>
-                </li>
-                 <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                 <li>
-                      <button class="botonContacto"><a href="contacto.html">Contacto</a></button>
-                 </li>
-             </ul>
-       </div>
-       <div class="redes">
-               <ul>
-                    <li>
-                       <a  href="https://www.facebook.com/" target="_blank"> <img class="facebook" src="IMAGENES/facebook.png" alt=""></a>
-                   </li>
-                    <li>
-                       <a href="https://www.instagram.com/" target="_blank"> <img class="instagram" src="IMAGENES/instagram.png" alt=""></a>
-                   </li>
-               </ul>
-       </div>
-   </nav>
-</header>
+    <header>
+        <!--Zona Nabegable-->
+        <nav class="navbar navbar-expand-lg" style="background-color: #94892A;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="IMAGENES/Logo.png" alt="logo de la pagina"
+                        width="65px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="links collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="distribuidores.html">Distribuidores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="navbar-brand" href="https://www.facebook.com"><img src="IMAGENES/facebook.png"
+                            alt="facebook" width="50px"></a>
+                    <a class="navbar-brand" href="https://www.instagram.com"><img src="IMAGENES/instagram.png"
+                            alt="instagram" width="50px"></a>
+                </div>
 
-<main>
-    
-    <!--Titulos principales-->
-    <div class="productosTitulos">
-        <h1>Pastas Artesanales</h1>
-        <h2>Aca podes encontrar todos nuestros productos</h2>
-    </div>
+            </div>
+        </nav>
 
-    <!--imagenes y descripcion de productos-->
 
-    <div class="produImagenes">
-        <div class="produImageneUno">
-            <img src="IMAGENES/imagenUno.jpg" alt="Ravioles">
-            <p>Ravioles al huevo/integrales</p>
-        </div>
-        <div class="produImagenUno">
-            <img src="IMAGENES/imagenDos.jpg" alt="Lasagna">
-            <p>Lasagna rellena, sabores a eleccion</p>
-        </div>
-        <div class="produImagenUno">
-            <img src="IMAGENES/imagenTres.jpg" alt="Capelletti">
-            <p>Capelleti sabores variados</p>
-        </div>
-    </div>
+    </header>
 
-    <div class="produImagenes">
-        <div class="produImageneUno">
-            <img src="IMAGENES/imagenCuatro.jpg" alt="Canelones">
-            <p>Canelones , rellenos varios</p>
-        </div>
-        <div class="produImagenDos">
-            <img src="IMAGENES/imagenCinco.jpg" alt="Noquis">
-            <p>Noquis de papa/calabaza/integrales</p>
-        </div>
-        <div class="produImagenTres">
-            <img src="IMAGENES/imagenSeis.jpg" alt="Fideos">
-            <p>Fideos al huevo y mas!!</p>
-        </div>
-    </div>
+    <main>
 
-    <div class="produImagenes">
-        <div class="produImageneUno">
-            <img src="IMAGENES/imagenNueve.jpg" alt="Espaguetis">
-            <p>Espaguetis al huevo</p>
+        <!--Titulos principales-->
+        <div class="productosTitulos">
+            <h1>Pastas Artesanales</h1>
+            <h2>Aca podes encontrar todos nuestros productos</h2>
         </div>
-        <div class="produImagenDos">
-            <img src="IMAGENES/imagenSiete.jpg" alt="Noquis">
-            <p>Macarrones de varios sabores</p>
-        </div>
-        <div class="produImagenTres">
-            <img src="IMAGENES/imagenOcho.jpg" alt="Farfalle">
-            <p>Farfalle al huevo y de verduras varias</p>
-        </div>
-    </div>
 
-    <div>
-        <p>Si estas interesado en alguno de nuestros productos, podes comunicarte 
-            con nostros a traves de nuestras redes sociales o whatsapp
-            entrando en nuestra seccion <a href="contacto.html">contactos</a>
-        </p>
-    </div>
-</main>
+        <!--imagenes y descripcion de productos-->
 
-<!-- footer / pie de pagina -->
-<footer class="footer">
-    <article class="pieDepagina">
-  
-        <div class="textoFooter" >
-           <img src="IMAGENES/Logo.png" alt="Logo de pagina" class="logoDos" >
-           <p>Pastas frescas artesanales, hechas 100% a mano.</p>
-           <p>Sabores exclusivos</p>
+        <div class="produImagenes">
+            <div class="produImageneUno">
+                <img src="IMAGENES/imagenUno.jpg" alt="Ravioles">
+                <p>Ravioles al huevo/integrales</p>
+            </div>
+            <div class="produImagenUno">
+                <img src="IMAGENES/imagenDos.jpg" alt="Lasagna">
+                <p>Lasagna rellena, sabores a eleccion</p>
+            </div>
+            <div class="produImagenUno">
+                <img src="IMAGENES/imagenTres.jpg" alt="Capelletti">
+                <p>Capelleti sabores variados</p>
+            </div>
         </div>
-  
-        <div class="textoFooterDos">
-          <p>El punto justo es una marca registrada</p>
-        </div>
-  
-    </article>
 
-    <!-- CDN BOOSTRAP J SCRIP-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <div class="produImagenes">
+            <div class="produImageneUno">
+                <img src="IMAGENES/imagenCuatro.jpg" alt="Canelones">
+                <p>Canelones , rellenos varios</p>
+            </div>
+            <div class="produImagenDos">
+                <img src="IMAGENES/imagenCinco.jpg" alt="Noquis">
+                <p>Noquis de papa/calabaza/integrales</p>
+            </div>
+            <div class="produImagenTres">
+                <img src="IMAGENES/imagenSeis.jpg" alt="Fideos">
+                <p>Fideos al huevo y mas!!</p>
+            </div>
+        </div>
+
+        <div class="produImagenes">
+            <div class="produImageneUno">
+                <img src="IMAGENES/imagenNueve.jpg" alt="Espaguetis">
+                <p>Espaguetis al huevo</p>
+            </div>
+            <div class="produImagenDos">
+                <img src="IMAGENES/imagenSiete.jpg" alt="Noquis">
+                <p>Macarrones de varios sabores</p>
+            </div>
+            <div class="produImagenTres">
+                <img src="IMAGENES/imagenOcho.jpg" alt="Farfalle">
+                <p>Farfalle al huevo y de verduras varias</p>
+            </div>
+        </div>
+
+        <div>
+            <p>Si estas interesado en alguno de nuestros productos, podes comunicarte
+                con nostros a traves de nuestras redes sociales o whatsapp
+                entrando en nuestra seccion <a href="contacto.html">contactos</a>
+            </p>
+        </div>
+    </main>
+
+    <!-- footer / pie de pagina -->
+    <footer class="sticky-end">
+        <div class="footer container-fluid " style="background-color: #94892A;" >
+             <div class="row">
+                  <div class="col-xs-12 col-md-6 col-lg-g-3 mt-3">
+                       <p><img src="IMAGENES/Logo.png" alt="logo de la pagina" width="65px"
+                                 class="d-inline-block align-text-center"> Pastas frescas artesanales, hechas 100% a
+                            mano.</p>
+
+                  </div>
+                  <div class=" pUno col-xs-12 col-md-6 col-lg-3 ">
+                       <p>Sabores exclusivos</p>
+                  </div>
+                  <div class="pDos col-xs-12 col-md-6 col-lg-3 ">
+                       <p>El punto justo es una marca registrada</p>
+                  </div>
+
+             </div>
+
+        </div>
+   </footer>
+
+
+        <!-- CDN BOOSTRAP J SCRIP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
 
 </body>
+
 </html>

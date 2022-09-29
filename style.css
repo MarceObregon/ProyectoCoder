@@ -9,8 +9,11 @@
     background-image: url(IMAGENES/PASTA.jpg);
     background-image: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    padding-bottom: 60px;
 }
 
 
@@ -74,43 +77,11 @@
 /*Pie de pagina*/
 
 .footer {
-    background-color: #94892A;
-    font-size: 15px;
-    display: flex;
-
-    align-items: center;
-    height: 60px;
-    width: 100%;
+   
     position: fixed;
     bottom: 0px;
-}
+   
 
-.pieDepagina {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-
-
-.logoDos {
-    display: flex;
-    width: 70px;
-}
-
-.textoFooter {
-    display: flex;
-    align-items: center;
-}
-
-.textoFooterDos {
-    display: flex;
-    align-items: center;
-    padding-right: 30px;
-}
-
-.textoFooterDos p {
-    padding-top: 25px;
 }
 
 
@@ -187,3 +158,28 @@ body {
     width: 60px;
     margin: 5px;
 }
+
+
+/*MEDIA QUERRIS INICIO*/
+
+@media only screen and ( max-width:450px ){.bodyInicio 
+
+{background-image: url(IMAGENES/PASTA02.png)}}
+
+@media only screen and ( max-width:450px ) {.contenedorMain{text-align: center;}}
+
+@media only screen and ( max-width:450px ) {.listas {font-size: 16px;padding:5px;padding-right: 30px;}}
+@media only screen and ( max-width:450px ) {.titulos {font-size: 20px;}}
+
+@media only screen and ( max-width:450px ) {.footer p {font-size: 10px;}}
+
+
+
+
+
+
+
+
+
+
+
