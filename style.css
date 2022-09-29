@@ -11,10 +11,12 @@
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     position: relative;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    
 }
+
 
 
 /* estilo zona navegable */
@@ -37,7 +39,6 @@
 /* Contenido Principal*/
 
 .contenedorMain {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     list-style: none;
 }
@@ -48,12 +49,12 @@
     font-size: 25px;
 }
 
+.titulos h1 {animation-duration: 2s}
 .titulos h2 {
     padding-top: 30px;
 }
 
 .listas {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: space-between;
     padding: 60px;
@@ -66,36 +67,96 @@
 
 .listas ul {
     list-style: none;
+    animation-duration: 2s
+    
 }
-
-
-
-
 
 
 
 /*Pie de pagina*/
 
+.ParrafoFinal {text-align: center;
+    color: antiquewhite;
+text-decoration: solid;
+padding: 10px ;
+background-color:  rgb(48, 36, 36);
+}
+
+
 .footer {
    
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: 0;
    
-
-}
+   }
 
 
 /*ESTILOS PAGINA PRODUCTOS*/
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 87px;
+    padding-top: 20px;
+    
+    background: #797322;
+background: radial-gradient(circle farthest-corner at center center, #797322 0%, #d1c133 90%);
+background: -webkit-radial-gradient(circle farthest-corner at center center, #797322 0%, #d1c133 90%);
+background: -moz-radial-gradient(circle farthest-corner at center center, #797322 0%, #d1c133 90%);
 }
 
-/*Color de fondo*/
 
-body {
-    background-color: #E5E929;
+
+.carouselEstilo { width: 70%;
+margin: 0 auto;
+padding: 40px;
 }
+
+.Carrusel {
+border-radius: 15px;}
+
+.productosTitulos h1 { font-size: 50px;
+padding-bottom: 40px;}
+
+.productosTitulos h2 {padding-bottom: 50px;
+    color: antiquewhite;
+    padding: 10px ;
+    background-color:  rgb(48, 36, 36);}
+
+.productosTitulos h5 {display: inline-block ;
+text-decoration: solid;
+padding: 10px;
+background-color:  rgb(48, 36, 36);
+animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+@-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
+
 
 
 
@@ -107,14 +168,6 @@ body {
     padding: 50px;
 }
 
-
-/*estilos de imagenes y sus descripciones*/
-
-.produImagenes {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-}
 
 /*ESTILOS PAGINA NOSOTROS*/
 
@@ -172,8 +225,15 @@ body {
 @media only screen and ( max-width:450px ) {.titulos {font-size: 20px;}}
 
 @media only screen and ( max-width:450px ) {.footer p {font-size: 10px;}}
+@media only screen and ( max-width:450px ) {.footer {padding: 2px;}}
 
 
+/*MEDIA QUERRIS PAGINA PRODUCTOS*/
+
+@media only screen and ( max-width:450px ) { body { padding-bottom: 100px;}}
+@media only screen and ( max-width:450px ) {.productosTitulos h1{font-size: 40px;}}
+@media only screen and ( max-width:450px ) {.productosTitulos h2 {font-size: 20px;}}
+@media only screen and ( max-width:450px ) {.ParrafoFinal {font-size: 10px;}}
 
 
 
