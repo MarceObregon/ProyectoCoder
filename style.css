@@ -220,15 +220,15 @@ animation-name: parpadeo;
 
 /*MEDIA QUERRIS INICIO*/
 
-@media only screen and ( max-width:450px ) {.bodyInicio {background-image: url(IMAGENES/PASTA02.jpg);background-size: 100% 100%;}}
+@media only screen and ( max-width:450px ) {.bodyInicio {background-image: url(IMAGENES/PASTA02.jpg); position: relative;}}
 
 @media only screen and ( max-width:450px ) {.contenedorMain{text-align: center;}}
 
 @media only screen and ( max-width:450px ) {.listas {font-size: 16px;padding:5px;padding-right: 30px;}}
 @media only screen and ( max-width:450px ) {.titulos {font-size: 20px;}}
 
-@media only screen and ( max-width:450px ) {.footer p {font-size: 10px;}}
-@media only screen and ( max-width:450px ) {.footer {padding: 2px;}}
+@media only screen and ( max-width:450px ) {.footer p {font-size: 10px;;}}
+@media only screen and ( max-width:450px ) {.footer {position: absolute;bottom: 0;}}
 
 
 /*MEDIA QUERRIS PAGINA PRODUCTOS*/
