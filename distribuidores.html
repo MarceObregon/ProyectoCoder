@@ -60,40 +60,82 @@
     <main>
         <div class="tituloDistri">
             <h1>QUERES FORMAR PARTE DE NOSOTROS?</h1>
-            <h2>Al contrario del . Tiene sus raices en una pieza c
-                Al contra</h2>
-                <h3>Al contrario del . Tiene sus raices en una pieza c
-                    Al contraAl contrario del . Tiene sus raices en una pieza c
-                    Al contraAl contrario del . Tiene sus raices en una pieza c
-                    Al contraAl contrario del . Tiene sus raices en una pieza c
-                    Al contraAl contrario del . Tiene sus raices en una pieza c
-                    Al contraAl contrario del . Tiene sus raices en una pieza c
-                    Al contra</h3>
+            <h2>Te interesa agregar nuestros productos a tu local o emprendimiento?</h2>
+                <h3>Si queres formar parte de la familia del Punto Justo, llena tus datos y comentanos un poco sobre vos.
+                    Tenes para ofrecerte los mejores precios por mayor, no dudes en consultarnos
+                </h3>
         </div>
+        <div class="container px-5 my-5">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="mb-3">
+                    <label class="form-label" for="nombreYApellido">Nombre y Apellido</label>
+                    <input class="form-control" id="nombreYApellido" type="text" placeholder="Nombre y Apellido" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="nombreYApellido:required">Nombre y Apellido is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="provinciaLocalidad">Provincia/Localidad</label>
+                    <input class="form-control" id="provinciaLocalidad" type="text" placeholder="Provincia/Localidad" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="provinciaLocalidad:required">Provincia/Localidad is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="dIreccion">DIreccion</label>
+                    <input class="form-control" id="dIreccion" type="text" placeholder="DIreccion" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="dIreccion:required">DIreccion is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" id="email" type="text" placeholder="Email" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="email:required">Email is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="numeroDeTelefeno">Numero de Telefeno</label>
+                    <input class="form-control" id="numeroDeTelefeno" type="text" placeholder="Numero de Telefeno" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="numeroDeTelefeno:required">Numero de Telefeno is required.</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="mensajeAdicional">Mensaje Adicional</label>
+                    <textarea class="form-control" id="mensajeAdicional" type="text" placeholder="Mensaje Adicional" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <div class="invalid-feedback" data-sb-feedback="mensajeAdicional:required">Mensaje Adicional is required.</div>
+                </div>
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        <p>To activate this form, sign up at</p>
+                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div>
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </main>
 
     <!-- footer / pie de pagina -->
-   <footer>
     <div class="ParrafoFinal">
         <p>Si estas interesado en alguno de nuestros productos, podes comunicarte
-          con nostros a traves de nuestras redes sociales o whatsapp
-          entrando en nuestra seccion <a href="contacto.html">contactos</a>
+            con nostros a traves de nuestras redes sociales o whatsapp
+            entrando en nuestra seccion <a href="contacto.html">contactos</a>
         </p>
-      </div>
-      <div class=" footer container-fluid " style="background-color: #94892A;">
+    </div>
+    <div class=" footer container-fluid " style="background-color: #94892A;">
         <div class="row">
-          <div class="col-6 col-md-7 col-lg-9 mt-2">
-            <p><img src="IMAGENES/Logo.png" alt="logo de la pagina" width="65px" class="d-inline-block align-text-center">
-              Pastas frescas artesanales, hechas 100% a
-              mano.Sabores exclusivos</p>
-  
-          </div>
-          <div class="col mt-4">
-            <p> ® El punto justo es una marca registrada</p>
-          </div>
+            <div class="col-6 col-md-7 col-lg-9 mt-2">
+                <p><img src="IMAGENES/Logo.png" alt="logo de la pagina" width="65px"
+                        class="d-inline-block align-text-center">
+                    Pastas frescas artesanales, hechas 100% a
+                    mano.Sabores exclusivos</p>
+
+            </div>
+            <div class="col mt-4">
+                <p> ® El punto justo es una marca registrada</p>
+            </div>
         </div>
-      </div>
-  </footer>
+    </div>
     
   
         <!-- CDN BOOSTRAP J SCRIP-->

@@ -98,15 +98,12 @@ background-color:  rgb(48, 36, 36);
 /*ESTILOS PAGINA PRODUCTOS*/
 
 body {
+    background-image: url(IMAGENES/FONDO03.png);
     font-family: 'Fjalla One', sans-serif;
     position: relative;
     padding-bottom: 87px;
     padding-top: 20px;
     
-    background: #797322;
-background: radial-gradient(circle farthest-corner at center center, #797322 0%, #d1c133 90%);
-background: -webkit-radial-gradient(circle farthest-corner at center center, #797322 0%, #d1c133 90%);
-background: -moz-radial-gradient(circle farthest-corner at center center, #797322 0%, #d1c133 90%);
 }
 
 
@@ -194,12 +191,19 @@ animation-name: parpadeo;
     padding-bottom: 39px;
 }
 
+.ImgContacto {width: 50px;}
+
 .tituloContactoDos {
     text-align: center;
     padding: 30px;
     display: flex;
     justify-content: center;
 }
+.tituloContacto h1 {padding-top: 50px;}
+.tituloContactoDos {display: inline;}
+.tituloContactoDos h4 {padding-bottom: 50px;}
+
+.redesContacto {display: flex; justify-content: center;padding-bottom: 50px;}
 
 
 .whatsapp {
