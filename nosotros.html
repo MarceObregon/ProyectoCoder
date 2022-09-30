@@ -6,99 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
     <link rel="shortcut icon" href="IMAGENES/Logo.png" type="Logo">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+        </style>
+      <!-- CDN BOOSTRAP-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+
+    <!-- header / encabezado -->
+
 <header>
-    <nav class="zonaNavegableDos">
-        <!--Logo de la pagina-->
-       <div class="logo">
-            <img src="IMAGENES/Logo.png" alt="logo De la marca">
-       </div>
-            <!--links de menu principal-->
-        <div class="divLinks">
-            <ul>
-                <li>
-                     <a href="index.html">Inico</a>
-                </li>
-                <li>
-                     <a href="productos.html">Productos</a>
-                </li>
-                 <li>
-                    <a href="distribuidores.html">Distribuidores</a>
-                </li>
-                 <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                 <li>
-                      <button class="botonContacto"><a href="contacto.html">Contacto</a></button>
-                 </li>
-             </ul>
-       </div>
-       <div class="redes">
-               <ul>
-                    <li>
-                       <a  href="https://www.facebook.com/" target="_blank"> <img class="facebook" src="IMAGENES/facebook.png" alt=""></a>
-                   </li>
-                    <li>
-                       <a href="https://www.instagram.com/" target="_blank"> <img class="instagram" src="IMAGENES/instagram.png" alt=""></a>
-                   </li>
-               </ul>
-       </div>
+     <!--Zona Nabegable-->
+    <nav class="navbar navbar-expand-lg" style="background-color: #94892A;">
+        <div class="container-fluid justify-content-center">
+             <a class="navbar-brand" href="index.html"><img src="IMAGENES/Logo.png" alt="logo de la pagina"
+                       width="65px"></a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="links collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                       </li>
+                       <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                       </li>
+                       <li class="nav-item">
+                            <a class="nav-link" href="distribuidores.html">Distribuidores</a>
+                       </li>
+                       <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                       </li>
+                       <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                       </li>
+                  </ul>
+             </div>
+             <div>
+                  <a class="navbar-brand" href="https://www.facebook.com"><img src="IMAGENES/facebook.png"
+                            alt="facebook" width="50px"></a>
+                  <a class="navbar-brand" href="https://www.instagram.com"><img src="IMAGENES/instagram.png"
+                            alt="instagram" width="50px"></a>
+             </div>
+
+        </div>
    </nav>
+
 </header>
 
 <main>
     <div class="tituloNos">
         <h1>SOBRE NOSOTROS</h1>
     </div>
-    <div NosImagenUno>
-        <img src="IMAGENES/nosotrosUno.jpg" alt="imagen amasando">
-        <p> Lorem ipsum dolor, 
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-        </p>
-    </div>
-    <div class="NosImagenDOs">
-        <img src="IMAGENES/nosotrosDos.jpg" alt="Imagen Fideos">
-        <p>sit amet consectetur adipisicing elit. Delectus, eius.sit am
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-        </p>
-    </div>
-    <div class="InfoNos">
-        <h2>sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-            sit amet consectetur adipisicing elit. Delectus, eius.
-        </h2>
-    </div>
+
+
+    <div class="card  mb-3 CardUno" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="IMAGENES/nosotrosUno.jpg" class="img-fluid rounded-start" alt="Imagen Amasando">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">FABRICANTES ARTESANALES</h5>
+              <p class="card-text">Somos una empresa familiar , hace mas de 20 años que empezamos con un pequeño emprendimiento desde casa.
+                Luego de varias idas y venidas pudimos poner nuestro primer local al publico.
+              </p>
+              <p class="card-text"><small class="text-muted">Pronto crecriamos sin darnos cuenta.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 CardDos" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="IMAGENES/nosotrosDos.jpg" class="img-fluid rounded-start" alt="Imagen Amasando Dos">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">SIEMPRE PENSAMOS EN EL CLIENTE</h5>
+              <p class="card-text">Con el boca a boca , de nuestros clientes fuimos haciendonos conocidos.
+                Nuestra mayor prioridad era la calidad y la fidelidad al cliente.
+                Nuestro objetivo, mantener y mejorar el nivel de nuestros productos.
+              </p>
+              <p class="card-text"><small class="text-muted">Todo fue posible gracias a Ustedes</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <div class="logoNos"> <img src="IMAGENES/Logo.png" alt="logo"></div>
 </main>
 
-<!--PIE DE PAGINA-->
-<footer class="footer">
-    <article class="pieDepagina">
-  
-        <div class="textoFooter" >
-           <img src="IMAGENES/Logo.png" alt="Logo de pagina" class="logoDos" >
-           <p>Pastas frescas artesanales, hechas 100% a mano.</p>
-           <p>Sabores exclusivos</p>
+<!-- footer / pie de pagina -->
+<footer>
+
+    <div class="ParrafoFinal">
+      <p>Si estas interesado en alguno de nuestros productos, podes comunicarte
+        con nostros a traves de nuestras redes sociales o whatsapp
+        entrando en nuestra seccion <a href="contacto.html">contactos</a>
+      </p>
+    </div>
+    <div class=" footer container-fluid " style="background-color: #94892A;">
+      <div class="row">
+        <div class="col-6 col-md-7 col-lg-9 mt-2">
+          <p><img src="IMAGENES/Logo.png" alt="logo de la pagina" width="65px" class="d-inline-block align-text-center">
+            Pastas frescas artesanales, hechas 100% a
+            mano.Sabores</p>
+
         </div>
-  
-        <div class="textoFooterDos">
-          <p>El punto justo es una marca registrada</p>
+        <div class="col mt-4">
+          <p> ® El punto justo es una marca registrada</p>
         </div>
-  
-    </article>
+      </div>
+    </div>
+
+
   </footer>
+
+
+  <!-- CDN BOOSTRAP J SCRIP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
     
 </body>
 </html>
