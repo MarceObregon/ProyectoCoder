@@ -237,7 +237,9 @@ animation-name: parpadeo;
 
 /*MEDIA QUERRIS PAGINA PRODUCTOS*/
 
-@media only screen and ( max-width:450px ) { body { padding-bottom: 100px;}}
+
+
+@media only screen and ( max-width:450px ) { body { padding-bottom: 100px; background-image: url(IMAGENES/FONDO03.png);}}
 @media only screen and ( max-width:450px ) {.productosTitulos h1{font-size: 40px;}}
 @media only screen and ( max-width:450px ) {.productosTitulos h2 {font-size: 20px;}}
 @media only screen and ( max-width:450px ) {.ParrafoFinal {font-size: 10px;}}
