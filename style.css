@@ -39,6 +39,7 @@
 /* Contenido Principal*/
 
 .contenedorMain {
+    overflow-x:hidden;
     text-align: center;
     list-style: none;
 }
@@ -219,7 +220,7 @@ animation-name: parpadeo;
 
 /*MEDIA QUERRIS INICIO*/
 
-
+@media only screen and ( max-width:450px ) {.bodyInicio {background-image: url(IMAGENES/PASTA02.jpg);background-size: 100% 100%;}}
 
 @media only screen and ( max-width:450px ) {.contenedorMain{text-align: center;}}
 
