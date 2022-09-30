@@ -9,10 +9,10 @@
     background-image: url(IMAGENES/PASTA.jpg);
     background-image: no-repeat;
     background-size: cover;
+    height: 100vh;
     background-position: center center;
     background-attachment: fixed;
     font-family: 'Fjalla One', sans-serif;
-    position: relative;
     padding-top: 20px;
     
 }
@@ -96,7 +96,6 @@ background-color:  rgb(48, 36, 36);
 body {
     font-family: 'Fjalla One', sans-serif;
     position: relative;
-    min-height: 100vh;
     padding-bottom: 87px;
     padding-top: 20px;
     
@@ -217,14 +216,9 @@ animation-name: parpadeo;
 
 /*MEDIA QUERRIS INICIO*/
 
-@media only screen and ( max-width:450px ){.bodyInicio 
+@media only screen and ( max-width:450px ) {.bodyInicio {background-image: url(IMAGENES/PASTA.jpg); width: 100%;}}
 
-{background-image: url(IMAGENES/PASTA02.jpg)}}
-
-@media only screen and ( max-width:450px ) {.contenedorMain{text-align: center;background-image: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;}}
+@media only screen and ( max-width:450px ) {.contenedorMain{text-align: center;}}
 
 @media only screen and ( max-width:450px ) {.listas {font-size: 16px;padding:5px;padding-right: 30px;}}
 @media only screen and ( max-width:450px ) {.titulos {font-size: 20px;}}
