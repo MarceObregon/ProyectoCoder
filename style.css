@@ -183,6 +183,11 @@ animation-name: parpadeo;
 
 .logoNos {display: flex;height: 200px; justify-content: center;margin-top: 100px;margin-bottom: 100px;}
 
+
+/*ESTILOS PAGINA DISTRIBUIDORES*/
+
+.tituloDistri  {text-align: center; padding-top: 50px;padding-bottom: 50px;}
+
 /*ESTILOS PAGINA CONTACTO*/
 
 .tituloContacto {
@@ -220,6 +225,8 @@ animation-name: parpadeo;
     width: 60px;
     margin: 5px;
 }
+
+.textoContactoDos { text-align: center;}
 
 
 /*MEDIA QUERRIS INICIO*/
