@@ -1,0 +1,20 @@
+
+header {
+    .navbar {
+        font-size: 20px;
+        height: 70%;
+        width: 80%;
+        margin: auto;
+        border-radius: 60px;
+
+        .links {
+            ul {
+                li {
+                    a {
+                        color: rgba(244, 255, 253, 0.521);
+                    }
+                }
+            }
+        }
+    }
+}

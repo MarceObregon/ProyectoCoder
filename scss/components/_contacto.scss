@@ -1,0 +1,67 @@
+main {
+    .tituloContacto {
+        text-align: center;
+        padding: 30px;
+        padding-bottom: 39px;
+    }
+
+    .tituloContactoDos {
+        text-align: center;
+        padding: 30px;
+        justify-content: center;
+        display: inline;
+
+        h1 {
+            padding-top: 50px;
+        }
+
+        h4 {
+            padding-bottom: 50px;
+        }
+    }
+
+    .redesContacto {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+
+        .whatsapp {
+            width: 60px;
+            margin: 5px;
+        }
+
+        .instagramDos {
+            width: 60px;
+            margin: 5px;
+        }
+
+        .facebookDos {
+            width: 60px;
+            margin: 5px;
+        }
+
+    }
+
+    .textoContactoUno {
+        .textoContactoDos {
+            text-align: center;
+
+            .textoContactoTres {
+                .formaPago {
+                    .ImgContacto {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .direccionContacto .direccionUno .direccion {
+            padding-bottom: 100px;
+
+            .ImgContacto {
+                width: 100px;
+            }
+        }
+    }
+
+}
