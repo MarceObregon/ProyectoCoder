@@ -1,0 +1,16 @@
+.footer {
+   
+    position: absolute;
+    bottom: 0;
+   
+   }
+   
+footer {
+    .ParrafoFinal {text-align: center;
+        color: antiquewhite;
+    text-decoration: solid;
+    padding: 10px ;
+    background-color:  rgb(48, 36, 36);
+    @media only screen and ( max-width:450px ){font-size: 10px;}
+    }
+}

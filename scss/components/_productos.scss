@@ -1,0 +1,90 @@
+main {
+    .productosTitulos {
+        text-align: center;
+        padding-top: 50px;
+        padding: 50px;
+
+
+        h1 {
+            font-size: 50px;
+            padding-bottom: 40px;
+            @media only screen and ( max-width:450px ){font-size: 40px;}
+        }
+
+        h2 {
+            padding-bottom: 50px;
+            color: antiquewhite;
+            padding: 10px;
+            background-color: rgb(48, 36, 36);
+            @media only screen and ( max-width:450px ){font-size: 20px;}
+        }
+
+        h5 {
+            display: inline-block;
+            text-decoration: solid;
+            padding: 10px;
+            background-color: rgb(48, 36, 36);
+            animation-name: parpadeo;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+            -webkit-animation-name: parpadeo;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+
+            @-moz-keyframes parpadeo {
+                0% {
+                    opacity: 1.0;
+                }
+
+                50% {
+                    opacity: 0.0;
+                }
+
+                100% {
+                    opacity: 1.0;
+                }
+            }
+
+            @-webkit-keyframes parpadeo {
+                0% {
+                    opacity: 1.0;
+                }
+
+                50% {
+                    opacity: 0.0;
+                }
+
+                100% {
+                    opacity: 1.0;
+                }
+            }
+
+            @keyframes parpadeo {
+                0% {
+                    opacity: 1.0;
+                }
+
+                50% {
+                    opacity: 0.0;
+                }
+
+                100% {
+                    opacity: 1.0;
+                }
+            }
+        }
+
+    }
+
+    .carouselEstilo {
+        width: 70%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+
+
+}
