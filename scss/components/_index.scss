@@ -8,7 +8,7 @@
     font-family: 'Fjalla One', sans-serif;
     padding-top: 20px;
 
-    @media only screen and ( max-width:450px ) {background-image: url(../IMAGENES/PASTA02.jpg); position: relative;}
+    @media only screen and ( max-width:450px ) {background-image: url(../IMAGENES/PASTA02.jpg); position: relative}
 
 }
 
@@ -17,21 +17,23 @@
     text-align: center;
     list-style: none;
 
-    @media only screen and ( max-width:450px ){text-align: center;}
+    @media only screen and (max-width:450px) {text-align: center;}
 
     .titulos {
         text-align: center;
         padding-top: 25px;
         font-size: 25px;
-        @media only screen and ( max-width:450px ){position: absolute;bottom: 0;}
+       
 
         h1 {
-            animation-duration: 2s
+            animation-duration: 2s;
         }
 
         h2 {
             padding-top: 30px;
         }
+
+        @media only screen and (max-width:450px) {position: absolute;bottom: 0;}
     }
 
     .listas {
@@ -40,11 +42,13 @@
         padding: 60px;
         padding-top: 50px;
         font-size: 30px;
-        @media only screen and ( max-width:450px ){font-size: 16px;padding:5px;padding-right: 30px;}
+        
 
         ul {
             list-style: none;
             animation-duration: 2s
         }
+
+        @include mv (){font-size: 16px;padding:5px;padding-right: 30px;}
     }
 }
