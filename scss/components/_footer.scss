@@ -1,8 +1,14 @@
+
+
 .footer {
 
     position: absolute;
     bottom: 0;
-    @media only screen and ( max-width:450px ) {position: absolute;bottom: 0}
+    @include mobile (){position: absolute;bottom: 0}
+
+    div p { @include mobile () {font-size: 10px;}
+
+    }
 
  
 
@@ -15,6 +21,7 @@ footer {
         text-decoration: solid;
         padding: 10px;
         background-color: rgb(48, 36, 36);
+        @include mobile () {font-size: 10px;}
 
       
 
